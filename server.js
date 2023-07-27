@@ -17,7 +17,7 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
 // Route basique
-app.get("/", (req, res) => {
+app.get("/hometest", (req, res) => {
     res.json({ message: "Bienvenue sur l'application Gamesoft" })
 })
 
@@ -118,7 +118,7 @@ function initial() {
         title: "Demonio",
         description: "The greatest game",
         studioName: "Gamesoft",
-        pictures: "./front/src/assets/demonio_background.jpg",
+        pictures: "",
         plateforms: "PC",
         priority: "5",
         score: "0",
