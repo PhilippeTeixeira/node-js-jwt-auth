@@ -4,11 +4,11 @@ const multer = require("multer")
 
 const app = express()
 
-var corsOptions = {
+/*var corsOptions = {
     origin: "http://localhost:8081"
-}
+}*/
 
-app.use(cors(corsOptions))
+app.use(cors())
 
 // Analyse des requetes de content-type - application/json
 app.use(express.json())
