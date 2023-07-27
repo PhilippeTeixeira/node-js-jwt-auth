@@ -1,8 +1,8 @@
 module.exports = {
-    HOST: "localhost",
-    USER: "root",
-    PASSWORD: "123456",
-    DB: "gamesoftdb",
+    HOST: "exbodcemtop76rnz.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    USER: "nr1wfdb84zxpi2r3",
+    PASSWORD: "oyh9d0c3ak9uopc3",
+    DB: "ux8mwpb84qrfop5b",
     dialect: "mysql",
     pool: {
         max: 5,
